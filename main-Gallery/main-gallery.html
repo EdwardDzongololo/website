@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MACASU</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="header.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script><link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta charset="UTF-8" />
+    <title>MACASU-Website</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="upcoming.css">
+    <meta name="description" content="MACASU Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="htpps://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.mini.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+    <!-- <a href="index.html" class="navbar-link">Home</a> -->
+    <h1>G A L L E R Y</h1>
+    <div class="full-img" id="fullPicBox">
+        <img src="images/img9.jpg" alt="MACASU" id="fullPic">
+        <span onclick="closefullPic()">Close</span>
+    </div>
+
+    <div class="img-gallery">
+        <img src="images/image0.jpeg" alt="MACASU" onclick="openfullPic(this.src)">
+        <img src="images/image2.jpeg" alt="MACASU" onclick="openfullPic(this.src)">
+        <img src="images/img2.jpg" alt="MACASU" onclick="openfullPic(this.src)">
+        <img src="images/img3.jpg" alt="MACASU" onclick="openfullPic(this.src)">
+        <img src="images/image3.jpeg" alt="MACASU" onclick="openfullPic(this.src)">
+        <img src="images/img5.jpg" alt="MACASU" onclick="openfullPic(this.src)">
+        <img src="images/image4.jpeg" alt="MACASU" onclick="openfullPic(this.src)">
+        <img src="images/image5.jpeg" alt="MACASU" onclick="openfullPic(this.src)">
+        <img src="images/img8.jpg" alt="MACASU" onclick="openfullPic(this.src)">
+        <img src="images/img9.jpg" alt="MACASU" onclick="openfullPic(this.src)">
+
+    </div>
+
+    <script>
+        var fullPicBox = document.getElementById("fullPicBox");
+        var fullPic = document.getElementById("fullPic");
+
+        function openfullPic(Pic) {
+            fullPicBox.style.display = "flex";
+            fullPic.src = Pic;
+        }
+
+        function closefullPic() {
+            fullPicBox.style.display = "none";
+        }
+    </script>
+    <!-- footer -->
+
+    <!-- footer -->
+    <main>
+        <footer class="footer ">
+            <div class="footer-left ">
+                <h2>MACASU</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatibus eos consectetur eveniet repellendus cupiditate eius nemo ipsa. Officia eaque impedit, assumenda in recusandae consequatur?</p>
+                <div class="socials ">
+                    <a href="# "><i class="fa fa-facebook " aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-linkedin " aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-twitter " aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-instagram " aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-whatsapp " aria-hidden="true "></i></a>
+
+
+                </div>
+            </div>
+            <ul class="footer-right ">
+                <li>
+                    <h2 style="align-items:center ">Links</h2>
+                    <ul class="box ">
+                        <li><a href="# ">About</a></li>
+
+                        <li><a href=" ">Activities</a></li>
+
+                        <li><a href="excutive.html ">Executive</a></li>
+
+                        <li><a href="# ">Alumini</a></li>
+                        <li><a href="# ">Contacts</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Contacts</h2>
+                    <ul class="box ">
+                        <li><a href="# ">Email: macasuegypt@gmail.com</a></li>
+
+                        <li><a href="# ">Phone Numbers : +201154917145 <br>+20113455344</a></li>
+
+                        <li><a href="# ">Cairo,</a></li>
+
+                        <li><a href="# ">Egypt</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+            <div class="footer-bottom ">
+                <p>All rights Reserved by &copy; Team Beat them All 2022</p>
+            </div>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020b14;
+}
+
+.banner-image {
+    background-image: url("images/pyramids.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-wrapper {
+    text-align: center;
+    /* top: 50%; */
+    /* left: 50%; */
+    translate: (-50%, -50%);
+    color: white;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.text-about {
+    text-align: left;
+    translate: (-50%, -50%);
+    /* width: 70%; */
+    color: #DEB992;
+}
+
+.text-about p {
+    width: 100%;
+}
+
+.about_header {
+    /* text-align: justify; */
+    background-color: #020b14;
+    text-align: center;
+    color: #1BA098;
+}
+
+.link-wrapper a {
+    text-decoration: none;
+    padding: 3px;
+    font-size: 20px;
+    color: #1BA098;
+    text-align: justify;
+}
+
+.link-wrapper:hover a {
+    background-color: rgb(231, 240, 237);
+    border-radius: 5px;
+    color: #020b14;
+}
+
+.lead {
+    font-size: 15px;
+    width: 100%;
+}
